@@ -1,0 +1,23 @@
+.nav-left {
+  height: calc(100vh);
+  overflow: auto;
+}
+.nav-left .logo {
+  line-height: 90px;
+  padding-left: 20px;
+  background-color: #002140;
+}
+.nav-left .logo img {
+  height: 35px;
+}
+.nav-left .logo h1 {
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+}
+.nav-left .ant-menu-root > li,
+.nav-left .ant-menu-root .ant-menu-submenu-title {
+  font-size: 18px;
+}

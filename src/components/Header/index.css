@@ -1,0 +1,52 @@
+.header {
+  background-color: #fff;
+}
+.header .headertop {
+  height: 60px;
+  color: #aaa;
+  line-height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  border-bottom: 2px solid #e9d8a8;
+}
+.header .headertop .user {
+  float: right;
+  padding: 0 50px;
+}
+.header .headertop .user .ant-dropdown-link {
+  color: #e29278;
+}
+.header .headerbottom {
+  height: 40px;
+  line-height: 40px;
+}
+.header .headerbottom .breadcrumb-title {
+  text-align: center;
+  font-size: 18px;
+}
+.header .headerbottom .breadcrumb-title:after {
+  position: absolute;
+  content: '';
+  left: 125px;
+  top: 40px;
+  border-top: 9px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+.header .headerbottom .weather {
+  text-align: right;
+  padding: 0 50px;
+  font-size: 14px;
+}
+.header .headerbottom .weather .date {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.header .headerbottom .weather .weather-img img {
+  height: 15px;
+}
+.header .headerbottom .weather .weather-detail {
+  margin-left: 5px;
+  vertical-align: middle;
+}
